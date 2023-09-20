@@ -1,1 +1,1 @@
-obj/Main.o: src/Main.cpp
+obj/Main.o: src/Main.cpp src/Vigenere.h
