@@ -1,0 +1,9 @@
+{
+    "makefile.launchConfigurations": [
+        {
+            "cwd": "/home/conrad/Documents/CIS-415/Vigenere Cypher",
+            "binaryPath": "/home/conrad/Documents/CIS-415/Vigenere Cypher/Vigenere",
+            "binaryArgs": []
+        }
+    ]
+}
