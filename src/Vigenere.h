@@ -36,7 +36,22 @@ public:
         return cipher_text;
     }
 
-    std::string dencrypt(const std::string key, const std::string cypher_text){
+    std::string decrypt(const std::string key, const std::string cypher_text){
+        std::string plain_text;
+    
+        auto full_key = expand_key(cypher_text.size(), key);
 
+        for (int i = 0; i < cypher_text.size(); i++)
+        {
+            // converting in range 0-25
+            char x = (cypher_text[i] - full_key[i] + 26) %26;
+    
+            // convert into alphabets(ASCII)
+            x += 'A';
+            
+            plain_text.push_back(x);
+        }
+
+        return plain_text;
     }
 };
