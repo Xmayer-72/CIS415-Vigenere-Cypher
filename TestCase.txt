@@ -5,11 +5,11 @@ Select Mode:
 1
 Selected [1]
 Enter Key:
-test
+math
 Enter Phrase
-thisisatestofmyalgorythym
-Encrypted Phrase using key TEST is:
-MLALBWSMXWLHYQQTEKGKRXZRF
+ConradMayer
+Encrypted Phrase using key MATH is:
+OOGYMDFHKEK
 
 conrad@IdeaPad-L340:~/Documents/CIS-415/Vigenere Cypher$ "/home/conrad/Documents/CIS-415/Vigenere Cypher/Vigenere" 
 Select Mode:
@@ -18,21 +18,8 @@ Select Mode:
 2
 Selected [2]
 Enter Key:
-test
+math
 Enter Cypher Text
-MLALBWSMXWLHYQQTEKGKRXZRF
-Decrypted Phrase using key TEST is:
-THISISATESTOFMYALGORYTHYM
-
-conrad@IdeaPad-L340:~/Documents/CIS-415/Vigenere Cypher$ "/home/conrad/Documents/CIS-415/Vigenere Cypher/Vigenere" 
-Select Mode:
-[1] Encrypt
-[2] Decrypt
-2
-Selected [2]
-Enter Key:
-nottest
-Enter Cypher Text
-MLALBWSMXWLHYQQTEKGKRXZRF
-Decrypted Phrase using key NOTTEST is:
-ZXHSXEZZJDSDGXDFLRCSYKLYM
+OOGYMDFHKEK
+Decrypted Phrase using key MATH is:
+CONRADMAYER
